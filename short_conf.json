@@ -1,0 +1,11 @@
+{
+    "xor_secret_key": 12345678,
+    "shuffle_key": "your_key",
+    "address": "localhost:5000",
+    "db_filename": "test.db",
+    "log_filename": "test.log",
+    "log_level": "debug",
+    "production": false,
+    "cache_capacity": 100000
+}
+
