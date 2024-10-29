@@ -38,9 +38,9 @@ The application is configured using a JSON file with the following fields:
 - log_filename: Filename for logging service activity.
 - log_level: Sets the logging level ("debug", "info", "warn", "error"). Controls the verbosity of the logs.
 - production: Boolean flag (true or false) that determines the logging output:
-        -If set to true, logs are written only to the log file specified by log_filename.
-        -If set to false, logs are written to both the log file and standard output (stdout), which is helpful during development.
-- cache_capacity: The maximun capacity of the cache
+    - If set to true, logs are written only to the log file specified by log_filename.
+    - If set to false, logs are written to both the log file and standard output (stdout), which is helpful during development.
+- cache_capacity: The maximun capacity of the cache.
 
 # Building the Project
 To build the URL shortener, run the following command inside the cmd directory:
